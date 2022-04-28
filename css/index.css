@@ -54,3 +54,8 @@ html{
     background: white;
     color: black;
 }
+.footer{
+    background: none;
+    text-decoration: chartreuse;
+    display: inline-block;
+}
