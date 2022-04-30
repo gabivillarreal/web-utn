@@ -68,7 +68,7 @@ html{
 }
 
 .body{
-    background: rgb(245, 245, 245);
+    background: rgb(15, 140, 111);
 }
 
 
@@ -90,7 +90,7 @@ html{
 
 .footer{
     margin-top: 25px;
-    background: rgb(132, 132, 132);
+    background: rgb(15, 140, 111);
     display: flex;
     justify-content: space-around;
 }
@@ -107,3 +107,44 @@ html{
 .map{
     width: 60%;
 }
+
+@media screen and (min-width: 660px) and (max-width: 989px){
+
+    .body{
+        background: yellow;
+    }
+    .logo{width: 100%;
+        text-align: center;
+    }
+
+    .banner-top{
+        display: flex;
+    }
+
+    .primero{
+        width: 100%;
+    }
+
+    .primero figure{
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .segundo{
+        width: 50%;
+    }
+
+    .tercero{
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 990px) and (max-width: 1900px){
+
+    .body{
+        background: rgb(215, 210, 210);
+    }
+}
+
+
