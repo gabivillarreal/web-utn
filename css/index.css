@@ -14,7 +14,7 @@ html{
 .header{
     background:black;
     color: aqua;
-    width: 70vw;
+    width: 55vw;
     height: 80px;
     margin-bottom:10px;
     margin-left: auto;
@@ -27,13 +27,13 @@ html{
     text-transform: uppercase;
 }
 .logo a{
-    color: rgb(228, 26, 26);
-    text-decoration:none ;
+    color: rgb(26, 228, 66);
+    text-decoration: none;
 }
 .navbar{
     background: rgb(31, 28, 28);
     color: antiquewhite;
-    width: 85vh;
+    width: 70vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -48,14 +48,62 @@ html{
     text-decoration: none;
     display: block;
     padding: 15px;
-    color: chartreuse;
+    color: rgb(26, 228, 66);
 }
 .navbar ul li a:hover{
     background: white;
     color: black;
 }
+
+.banner-top{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.body{
+    background: rgb(245, 245, 245);
+}
+
+
+#contenedor img{
+    width: 100%;
+}
+
+.primero{
+    padding: 1%;
+}
+
+.segundo{
+    padding: 1%;
+}
+
+.tercero{
+    padding: 1%;
+}
+
 .footer{
-    background: none;
-    text-decoration: chartreuse;
-    display: inline-block;
+    margin-top: 25px;
+    background: rgb(132, 132, 132);
+    display: flex;
+    justify-content: space-around;
+}
+.footer ul{
+    list-style: none;
+}
+
+.data{
+    background: transparent;
+    color: aliceblue;
+    list-style: none;
+}
+
+.map{
+    width: 60%;
 }
